@@ -7,6 +7,7 @@ import Titlebar from 'app/components/Titlebar';
 import Devices from 'app/views/devices';
 import OverlayConfig from 'app/views/overlayConfig';
 import Settings from 'app/views/settings';
+import MixMetadata from 'src/renderer/views/mixMetadata';
 
 const Application = () => (
   <MemoryRouter>
@@ -17,6 +18,7 @@ const Application = () => (
         <Route path="/status" component={Devices} />
         <Route path="/overlay-config" component={OverlayConfig} />
         <Route path="/settings" component={Settings} />
+        <Route path="/meta-data" component={MixMetadata} />
       </Switch>
     </Frame>
     <Footer />
