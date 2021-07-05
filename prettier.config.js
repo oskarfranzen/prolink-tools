@@ -9,5 +9,5 @@ module.exports = {
   trailingComma: 'es5',
   useTabs: false,
   arrowParens: 'avoid',
-  endOfLine: 'auto',
+  endOfLine: 'auto'
 };

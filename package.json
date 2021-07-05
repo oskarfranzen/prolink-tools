@@ -45,6 +45,7 @@
   "devDependencies": {
     "@evanpurkhiser/eslint-config": "^0.9.1",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.4.2",
+    "@types/recharts": "^1.8.18",
     "electron": "^10.1.1",
     "electron-builder": "^22.3.2",
     "eslint": "^7.14.0",
@@ -138,6 +139,7 @@
     "react-select": "^3.1.0",
     "react-test-renderer": "^16.8.6",
     "react-textarea-autosize": "^8.2.0",
+    "recharts": "^1.8.5",
     "regenerator-runtime": "^0.13.5",
     "semver": "^7.3.2",
     "serializr": "^2.0.3",

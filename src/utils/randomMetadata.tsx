@@ -1,3 +1,4 @@
+import { random } from 'lodash';
 import {Track} from 'prolink-connect/lib/types';
 
 import {PlayedTrack} from 'src/shared/store';
@@ -32,6 +33,7 @@ export async function makeRandomTrack({artwork}: Options = {}) {
     genre: {id: 0, name: metadata.genre} as any,
     label: {id: 0, name: metadata.label} as any,
     key: {id: 0, name: metadata.key} as any,
+    tempo: random(70, 150)
   } as Track;
 
   const played = new PlayedTrack(new Date(), track);
